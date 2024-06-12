@@ -14,12 +14,19 @@ export default function Home() {
           <div className="text-[#0F1B61] right-0 absolute text-[12px] font-bold mt-[3.3em] mr-[6em] tracking-[1px]">vinhnguyensj01@gmail.com</div>
         </nav>
         <section className={zilla_slab.className}>
-          <div className="text-[#0F1B61] ml-40 mt-40 text-[70px]">
-            <div>Hi, my</div>
+          <div className="text-[#0F1B61] ml-[3.5em] mt-[1.54em] text-[88px]">
+            <div className="-mb-[0.56em]">Hi, my</div>
             <div>name is <span className="font-bold">Vinh</span></div>
+            <div className="text-[26px] mt-[0.3em]">I am a <span className="font-bold">software engineering </span>major at San Jose</div>
+            <div className="text-[26px]">State University, graduating Fall 2024.</div>
           </div>
         </section>
+        <section>
+          <div className="tracking-[4px] text-[11px] ml-[45.3em] mt-[9.7em]">SCROLL</div>
+          <div className="ml-[33em] mt-[20px] w-[1px] h-[200px] bg-black "></div>
+        </section>
       </section>
+
     </main>
   );
 }
