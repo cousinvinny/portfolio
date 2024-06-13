@@ -8,10 +8,18 @@ export default function Home() {
         <nav className="flex">
           <img src='/images/coding.svg' alt="terminal icon" className="h-[7vh] ml-8 mt-4" />
           <img src='/images/thick_line.png' className="h-[2.8vh] mt-9 ml-4" />
-          <div className="text-[#0F1B61] text-[12px] font-bold mt-[3.3em] ml-[1.5em] tracking-[4px]">HOME</div>
-          <div className="text-[#0F1B61] text-[12px] font-bold mt-[3.3em] ml-9 tracking-[4px]">RESUME</div>
+          <div className="group w-[3em] flex justify-center ml-4">
+            <div className="text-[#0F1B61] text-[12px] font-bold mt-[3.3em] tracking-[4px] transition-all duration-300 group-hover:tracking-[6px]">
+              HOME
+            </div>
+          </div>
+          <div className="group w-[5em] flex justify-center ml-7">
+            <div className="text-[#0F1B61] text-[12px] font-bold mt-[3.3em] tracking-[4px] transition-all duration-300 group-hover:tracking-[6px]">
+              RESUME
+            </div>
+          </div>
           <img src='/images/chat_outline.svg' className="right-0 absolute h-[4vh] mt-[1.9em] ml-4 mr-[17em]" />
-          <div className="text-[#0F1B61] right-0 absolute text-[12px] font-bold mt-[3.3em] mr-[6em] tracking-[1px]">vinhnguyensj01@gmail.com</div>
+          <div className="text-[#0F1B61] right-0 absolute text-[12px] font-bold mt-[3.3em] mr-[6em] tracking-[1px] ">vinhnguyensj01@gmail.com</div>
         </nav>
         <section className={zilla_slab.className}>
           <div className="text-[#0F1B61] ml-[3.5em] mt-[1.54em] text-[88px]">
